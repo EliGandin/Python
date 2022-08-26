@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3da9c7f8dd292dad652fa98ce52641cf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3da9c7f8dd292dad652fa98ce52641cf" ></div>
+        
+</body>
+<script>    
+    
+            var map_3da9c7f8dd292dad652fa98ce52641cf = L.map(
+                "map_3da9c7f8dd292dad652fa98ce52641cf",
+                {
+                    center: [-33.923969, 151.25803],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_371c994345836b7bafc48f845620c308 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3da9c7f8dd292dad652fa98ce52641cf);
+        
+    
+            var feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a = L.featureGroup(
+                {}
+            ).addTo(map_3da9c7f8dd292dad652fa98ce52641cf);
+        
+    
+            var marker_d5377f25f8fbb66c183a92dfc4311aa3 = L.marker(
+                [-33.923969, 151.25803],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_6e0bea38ada23d551e64bc2b64a14be2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d5377f25f8fbb66c183a92dfc4311aa3.setIcon(icon_6e0bea38ada23d551e64bc2b64a14be2);
+        
+    
+        var popup_508f9c66bec8108c8d8cc91648992bd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93bef94cf304e53a0d83a855a16d7fc2 = $(`<div id="html_93bef94cf304e53a0d83a855a16d7fc2" style="width: 100.0%; height: 100.0%;">Bondi to Bronte Coastal Walk, AUS</div>`)[0];
+            popup_508f9c66bec8108c8d8cc91648992bd9.setContent(html_93bef94cf304e53a0d83a855a16d7fc2);
+        
+
+        marker_d5377f25f8fbb66c183a92dfc4311aa3.bindPopup(popup_508f9c66bec8108c8d8cc91648992bd9)
+        ;
+
+        
+    
+    
+            var marker_d08bf6f95e5978002bf1479f6652b26a = L.marker(
+                [-34.000880701414395, 151.24874464692454],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_ab657e486a4207632839df7697dcc053 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d08bf6f95e5978002bf1479f6652b26a.setIcon(icon_ab657e486a4207632839df7697dcc053);
+        
+    
+        var popup_e696dc90df8e383e3eb492071722f9e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26e93e46ccc56044eff5803a06f1f683 = $(`<div id="html_26e93e46ccc56044eff5803a06f1f683" style="width: 100.0%; height: 100.0%;">Cape Banks, Little Bay, AUS</div>`)[0];
+            popup_e696dc90df8e383e3eb492071722f9e9.setContent(html_26e93e46ccc56044eff5803a06f1f683);
+        
+
+        marker_d08bf6f95e5978002bf1479f6652b26a.bindPopup(popup_e696dc90df8e383e3eb492071722f9e9)
+        ;
+
+        
+    
+    
+            var marker_da3fe4661a9d2e1e6a0be6bfd80ac81c = L.marker(
+                [-33.84200665223863, 151.28471967497973],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_1ddb3b5a4fce7456058e1e8ecfd2a4d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_da3fe4661a9d2e1e6a0be6bfd80ac81c.setIcon(icon_1ddb3b5a4fce7456058e1e8ecfd2a4d9);
+        
+    
+        var popup_6d1c6b99b7abfa57b27bfcbead5a0aae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_487c4837305c007cdb37771e5f829ae7 = $(`<div id="html_487c4837305c007cdb37771e5f829ae7" style="width: 100.0%; height: 100.0%;">The Bluff, Watson Bay, AUS</div>`)[0];
+            popup_6d1c6b99b7abfa57b27bfcbead5a0aae.setContent(html_487c4837305c007cdb37771e5f829ae7);
+        
+
+        marker_da3fe4661a9d2e1e6a0be6bfd80ac81c.bindPopup(popup_6d1c6b99b7abfa57b27bfcbead5a0aae)
+        ;
+
+        
+    
+    
+            var marker_d932b5fb53d54f874e25192a4faa2f06 = L.marker(
+                [-33.84281310468688, 151.28211256803036],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_429426498b9fb8b2afe83f764e6f0fdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d932b5fb53d54f874e25192a4faa2f06.setIcon(icon_429426498b9fb8b2afe83f764e6f0fdb);
+        
+    
+        var popup_deddadf9eb3d19d823a4d33853f37d75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e8dd729a9184384806669be98bcde5b = $(`<div id="html_1e8dd729a9184384806669be98bcde5b" style="width: 100.0%; height: 100.0%;">Watson Bay Hotel, Watson Bay, AUS</div>`)[0];
+            popup_deddadf9eb3d19d823a4d33853f37d75.setContent(html_1e8dd729a9184384806669be98bcde5b);
+        
+
+        marker_d932b5fb53d54f874e25192a4faa2f06.bindPopup(popup_deddadf9eb3d19d823a4d33853f37d75)
+        ;
+
+        
+    
+    
+            var marker_0f1e5e492bac3684136aa2b15c93e605 = L.marker(
+                [-37.865183962758316, 144.9851959210609],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_cb2f3606ae858f3383e66fabade69cae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f1e5e492bac3684136aa2b15c93e605.setIcon(icon_cb2f3606ae858f3383e66fabade69cae);
+        
+    
+        var popup_7216ee35830d94761f7cc43530ef96b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a02934040a7310573497eb3bab8b9891 = $(`<div id="html_a02934040a7310573497eb3bab8b9891" style="width: 100.0%; height: 100.0%;">Habitat HQ, St. Kilda, AUS</div>`)[0];
+            popup_7216ee35830d94761f7cc43530ef96b7.setContent(html_a02934040a7310573497eb3bab8b9891);
+        
+
+        marker_0f1e5e492bac3684136aa2b15c93e605.bindPopup(popup_7216ee35830d94761f7cc43530ef96b7)
+        ;
+
+        
+    
+    
+            var marker_f845571bfe4e0fdfc87de012d7a9f71f = L.marker(
+                [-38.6589234800146, 143.1066878527297],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_8c8ad81c1538ce5e51395182db0a6e31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f845571bfe4e0fdfc87de012d7a9f71f.setIcon(icon_8c8ad81c1538ce5e51395182db0a6e31);
+        
+    
+        var popup_0ca3ef543501cb836e27999f180ae8ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8879678ec642697369d2bc5af1dcef8 = $(`<div id="html_f8879678ec642697369d2bc5af1dcef8" style="width: 100.0%; height: 100.0%;">Twelve Apostles, AUS</div>`)[0];
+            popup_0ca3ef543501cb836e27999f180ae8ea.setContent(html_f8879678ec642697369d2bc5af1dcef8);
+        
+
+        marker_f845571bfe4e0fdfc87de012d7a9f71f.bindPopup(popup_0ca3ef543501cb836e27999f180ae8ea)
+        ;
+
+        
+    
+    
+            var marker_a0b4fa0e66e7b322650662306035d0e4 = L.marker(
+                [-37.865183962758316, 144.9851959210609],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_37375f4b08a2c3fc809e8cbf7c73ddfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a0b4fa0e66e7b322650662306035d0e4.setIcon(icon_37375f4b08a2c3fc809e8cbf7c73ddfc);
+        
+    
+        var popup_47a48180e672399301bbcd33c9879bc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f562d66b4b13409a270e9ad23059b5a9 = $(`<div id="html_f562d66b4b13409a270e9ad23059b5a9" style="width: 100.0%; height: 100.0%;">Habitat HQ, St. Kilda, AUS</div>`)[0];
+            popup_47a48180e672399301bbcd33c9879bc4.setContent(html_f562d66b4b13409a270e9ad23059b5a9);
+        
+
+        marker_a0b4fa0e66e7b322650662306035d0e4.bindPopup(popup_47a48180e672399301bbcd33c9879bc4)
+        ;
+
+        
+    
+    
+            var marker_8bfadaf06afa30b1861e9d31c8e82e7e = L.marker(
+                [-37.204696286473094, 142.39190297752862],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_28f35327d84a3923ada9e33866a3cf20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8bfadaf06afa30b1861e9d31c8e82e7e.setIcon(icon_28f35327d84a3923ada9e33866a3cf20);
+        
+    
+        var popup_ba93396cac2d5ca1f5ac18bebb0dc9eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5ba5869676b641c3df82131426e7a77 = $(`<div id="html_f5ba5869676b641c3df82131426e7a77" style="width: 100.0%; height: 100.0%;">Grampians National Park, AUS</div>`)[0];
+            popup_ba93396cac2d5ca1f5ac18bebb0dc9eb.setContent(html_f5ba5869676b641c3df82131426e7a77);
+        
+
+        marker_8bfadaf06afa30b1861e9d31c8e82e7e.bindPopup(popup_ba93396cac2d5ca1f5ac18bebb0dc9eb)
+        ;
+
+        
+    
+    
+            var marker_b6a6f041de051d546091f8987672d835 = L.marker(
+                [-33.73102392797698, 150.31449242782313],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_91ab906f95ca02d101433ea84453a43b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b6a6f041de051d546091f8987672d835.setIcon(icon_91ab906f95ca02d101433ea84453a43b);
+        
+    
+        var popup_b03acb6bd6f9eeeca6cc07277b52f740 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_812d24f757037c44774d8048232a57de = $(`<div id="html_812d24f757037c44774d8048232a57de" style="width: 100.0%; height: 100.0%;">The Three Sisters, AUS</div>`)[0];
+            popup_b03acb6bd6f9eeeca6cc07277b52f740.setContent(html_812d24f757037c44774d8048232a57de);
+        
+
+        marker_b6a6f041de051d546091f8987672d835.bindPopup(popup_b03acb6bd6f9eeeca6cc07277b52f740)
+        ;
+
+        
+    
+    
+            var marker_d6bb9c2bcbdca013f6b6df11bd5ca12a = L.marker(
+                [-30.198786362952013, 153.16497720052925],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_f1fa58b9183dc597a991f8a644960e55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d6bb9c2bcbdca013f6b6df11bd5ca12a.setIcon(icon_f1fa58b9183dc597a991f8a644960e55);
+        
+    
+        var popup_5c95941178c0865b7621c4d9f3e1b62b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_754525b358f38009a4397360986c2710 = $(`<div id="html_754525b358f38009a4397360986c2710" style="width: 100.0%; height: 100.0%;">Mooney Beach, AUS</div>`)[0];
+            popup_5c95941178c0865b7621c4d9f3e1b62b.setContent(html_754525b358f38009a4397360986c2710);
+        
+
+        marker_d6bb9c2bcbdca013f6b6df11bd5ca12a.bindPopup(popup_5c95941178c0865b7621c4d9f3e1b62b)
+        ;
+
+        
+    
+    
+            var marker_4618d181e649a7f7cc7d4cc9897ccfc3 = L.marker(
+                [-28.633634139512964, 153.60064907003746],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_00a64f8a35071b5f6989ede52a610970 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4618d181e649a7f7cc7d4cc9897ccfc3.setIcon(icon_00a64f8a35071b5f6989ede52a610970);
+        
+    
+        var popup_d3d708714b91e7b0a85b52e96b8ac066 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52bbbdee1bfd113c397963013a2425c6 = $(`<div id="html_52bbbdee1bfd113c397963013a2425c6" style="width: 100.0%; height: 100.0%;">Belongil Beach, AUS</div>`)[0];
+            popup_d3d708714b91e7b0a85b52e96b8ac066.setContent(html_52bbbdee1bfd113c397963013a2425c6);
+        
+
+        marker_4618d181e649a7f7cc7d4cc9897ccfc3.bindPopup(popup_d3d708714b91e7b0a85b52e96b8ac066)
+        ;
+
+        
+    
+    
+            var marker_156060eeb040e8291e7614f54c345dd1 = L.marker(
+                [-25.439478445840198, 153.08036745696856],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_72df3da13c79c9def068e82e420eefa2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_156060eeb040e8291e7614f54c345dd1.setIcon(icon_72df3da13c79c9def068e82e420eefa2);
+        
+    
+        var popup_5c6091779d3d1f9560b9ec6ed9584cde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_032c8eaa2bc37f74d13f6392486d2afd = $(`<div id="html_032c8eaa2bc37f74d13f6392486d2afd" style="width: 100.0%; height: 100.0%;">Lake Mackenzie, Fraser Island, AUS</div>`)[0];
+            popup_5c6091779d3d1f9560b9ec6ed9584cde.setContent(html_032c8eaa2bc37f74d13f6392486d2afd);
+        
+
+        marker_156060eeb040e8291e7614f54c345dd1.bindPopup(popup_5c6091779d3d1f9560b9ec6ed9584cde)
+        ;
+
+        
+    
+    
+            var marker_67a3c2ef52e4530686c7e0d04cff16ec = L.marker(
+                [-43.51522874248613, 171.67064697446227],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_617e1fa8bff4df29884691cff654caf4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_67a3c2ef52e4530686c7e0d04cff16ec.setIcon(icon_617e1fa8bff4df29884691cff654caf4);
+        
+    
+        var popup_6178916b9a99910e6e47fbecaa6db1a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_445f681b9c51a89f5df70551057381cd = $(`<div id="html_445f681b9c51a89f5df70551057381cd" style="width: 100.0%; height: 100.0%;">Rakia Gorge, New Zealand</div>`)[0];
+            popup_6178916b9a99910e6e47fbecaa6db1a4.setContent(html_445f681b9c51a89f5df70551057381cd);
+        
+
+        marker_67a3c2ef52e4530686c7e0d04cff16ec.bindPopup(popup_6178916b9a99910e6e47fbecaa6db1a4)
+        ;
+
+        
+    
+    
+            var marker_47eb14ff650d1831c44e71a2c9d94f2f = L.marker(
+                [-43.226977916390666, 171.72042875519816],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_80e1df25bd099f0231b7ea046545ed51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_47eb14ff650d1831c44e71a2c9d94f2f.setIcon(icon_80e1df25bd099f0231b7ea046545ed51);
+        
+    
+        var popup_2e2ea0d034f32359a4bdcd1c31bbd368 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01e5044a121dc6d492ba9dacdbdffbac = $(`<div id="html_01e5044a121dc6d492ba9dacdbdffbac" style="width: 100.0%; height: 100.0%;">Castle Hill, New Zealand</div>`)[0];
+            popup_2e2ea0d034f32359a4bdcd1c31bbd368.setContent(html_01e5044a121dc6d492ba9dacdbdffbac);
+        
+
+        marker_47eb14ff650d1831c44e71a2c9d94f2f.bindPopup(popup_2e2ea0d034f32359a4bdcd1c31bbd368)
+        ;
+
+        
+    
+    
+            var marker_f8a77be219b07d74f12c47d0eafd91c0 = L.marker(
+                [-42.93672915645775, 171.72849683251306],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_340d3b27e49429a00bb365a6f87b7aba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f8a77be219b07d74f12c47d0eafd91c0.setIcon(icon_340d3b27e49429a00bb365a6f87b7aba);
+        
+    
+        var popup_6c3527410a972c37eba84feb42c518a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c6c820c4fdbc5e54763c3628bbaac5d = $(`<div id="html_9c6c820c4fdbc5e54763c3628bbaac5d" style="width: 100.0%; height: 100.0%;">Arthur's Pass, New Zealand</div>`)[0];
+            popup_6c3527410a972c37eba84feb42c518a0.setContent(html_9c6c820c4fdbc5e54763c3628bbaac5d);
+        
+
+        marker_f8a77be219b07d74f12c47d0eafd91c0.bindPopup(popup_6c3527410a972c37eba84feb42c518a0)
+        ;
+
+        
+    
+    
+            var marker_761f5143869da9eff9d2f54436c93395 = L.marker(
+                [-44.00565357857017, 170.47950438662286],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_4af712e76b7091e5044a6e3767ef9f2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_761f5143869da9eff9d2f54436c93395.setIcon(icon_4af712e76b7091e5044a6e3767ef9f2f);
+        
+    
+        var popup_179ca5c66e015e5db6144a880151fc0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6a2bcd3f28b57db27dbbfdf11917cd7 = $(`<div id="html_c6a2bcd3f28b57db27dbbfdf11917cd7" style="width: 100.0%; height: 100.0%;">Lake Tekapo, New Zealand</div>`)[0];
+            popup_179ca5c66e015e5db6144a880151fc0c.setContent(html_c6a2bcd3f28b57db27dbbfdf11917cd7);
+        
+
+        marker_761f5143869da9eff9d2f54436c93395.bindPopup(popup_179ca5c66e015e5db6144a880151fc0c)
+        ;
+
+        
+    
+    
+            var marker_cc4719377f382fff0af22c0826f049cb = L.marker(
+                [-44.68703337746742, 169.0513732596807],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_b2e3df9682c7ab0b5a6fbf38c72c37b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cc4719377f382fff0af22c0826f049cb.setIcon(icon_b2e3df9682c7ab0b5a6fbf38c72c37b5);
+        
+    
+        var popup_a62d6abc1c1e0d708440f5c5d9983918 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a32e973eb522e25b8394d5b68a6381e1 = $(`<div id="html_a32e973eb522e25b8394d5b68a6381e1" style="width: 100.0%; height: 100.0%;">Roys Peak, New Zealand</div>`)[0];
+            popup_a62d6abc1c1e0d708440f5c5d9983918.setContent(html_a32e973eb522e25b8394d5b68a6381e1);
+        
+
+        marker_cc4719377f382fff0af22c0826f049cb.bindPopup(popup_a62d6abc1c1e0d708440f5c5d9983918)
+        ;
+
+        
+    
+    
+            var marker_b662b4f7021e6cf1e15816976667f2cf = L.marker(
+                [-44.4742873314545, 168.66650845246735],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_724c199b5717dc7e77d587bbea9304bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b662b4f7021e6cf1e15816976667f2cf.setIcon(icon_724c199b5717dc7e77d587bbea9304bc);
+        
+    
+        var popup_a831f9dae35c00584536a69091422fb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04a2f329e496ff215b60dbc4b0e4c8d1 = $(`<div id="html_04a2f329e496ff215b60dbc4b0e4c8d1" style="width: 100.0%; height: 100.0%;">Matukituki Valley, New Zealand</div>`)[0];
+            popup_a831f9dae35c00584536a69091422fb9.setContent(html_04a2f329e496ff215b60dbc4b0e4c8d1);
+        
+
+        marker_b662b4f7021e6cf1e15816976667f2cf.bindPopup(popup_a831f9dae35c00584536a69091422fb9)
+        ;
+
+        
+    
+    
+            var marker_1182316265560ac8272acf374b03290d = L.marker(
+                [-43.7156223185764, 170.1038789299048],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_5ced20165c75351f62bf3aee8e64a21f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1182316265560ac8272acf374b03290d.setIcon(icon_5ced20165c75351f62bf3aee8e64a21f);
+        
+    
+        var popup_956137cf8375f62d5e4a60575870497d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dec2f6ce51f9c6b638e5bf262055134 = $(`<div id="html_3dec2f6ce51f9c6b638e5bf262055134" style="width: 100.0%; height: 100.0%;">Lake Muller, Mount Cook, New Zealand</div>`)[0];
+            popup_956137cf8375f62d5e4a60575870497d.setContent(html_3dec2f6ce51f9c6b638e5bf262055134);
+        
+
+        marker_1182316265560ac8272acf374b03290d.bindPopup(popup_956137cf8375f62d5e4a60575870497d)
+        ;
+
+        
+    
+    
+            var marker_20f8beca2a1438553874b129bd873052 = L.marker(
+                [-43.7156223185764, 170.1038789299048],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_7921ea673c1c4356529e773b18ca4223 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_20f8beca2a1438553874b129bd873052.setIcon(icon_7921ea673c1c4356529e773b18ca4223);
+        
+    
+        var popup_6bf23c78f8e0e29f72d92f8f9260377a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04cd2a3b641e5b0f8ab526cb6958f3af = $(`<div id="html_04cd2a3b641e5b0f8ab526cb6958f3af" style="width: 100.0%; height: 100.0%;">Lake Muller, Mount Cook, New Zealand</div>`)[0];
+            popup_6bf23c78f8e0e29f72d92f8f9260377a.setContent(html_04cd2a3b641e5b0f8ab526cb6958f3af);
+        
+
+        marker_20f8beca2a1438553874b129bd873052.bindPopup(popup_6bf23c78f8e0e29f72d92f8f9260377a)
+        ;
+
+        
+    
+    
+            var marker_556059999e7a982236c5686adf1db112 = L.marker(
+                [-45.38625977547906, 167.58573637779787],
+                {}
+            ).addTo(feature_group_c120633ac4b735cbe4f7b0b2a06f3c3a);
+        
+    
+            var icon_380aa8f898f88f145c2ee669eb28a828 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_556059999e7a982236c5686adf1db112.setIcon(icon_380aa8f898f88f145c2ee669eb28a828);
+        
+    
+        var popup_d5fa39bceea45e5d75f150e5972bdf36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6305fa2340fd875c0ca5cbe98982e5bc = $(`<div id="html_6305fa2340fd875c0ca5cbe98982e5bc" style="width: 100.0%; height: 100.0%;">Kepler Great Walk, New Zealand</div>`)[0];
+            popup_d5fa39bceea45e5d75f150e5972bdf36.setContent(html_6305fa2340fd875c0ca5cbe98982e5bc);
+        
+
+        marker_556059999e7a982236c5686adf1db112.bindPopup(popup_d5fa39bceea45e5d75f150e5972bdf36)
+        ;
+
+        
+    
+</script>

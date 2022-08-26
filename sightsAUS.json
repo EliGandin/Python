@@ -1,0 +1,169 @@
+[{
+  "ID": 1,
+  "Coordinates": [-33.923969, 151.258030],
+  "City": "Sydney",
+  "State": "NSW",
+  "Country": "AUS",
+  "Name": "Bondi to Bronte Coastal Walk",
+  "Color": "green"
+},
+{
+  "ID": 2,
+  "Coordinates": [-34.000880701414395, 151.24874464692454],
+  "City": "Sydney",
+  "State": "NSW",
+  "Country": "AUS",
+  "Name": "Cape Banks, Little Bay",
+  "Color": "green"
+},
+{
+  "ID": 3,
+  "Coordinates": [-33.84200665223863, 151.28471967497973],
+  "City": "Sydney",
+  "State": "NSW",
+  "Country": "AUS",
+  "Name": "The Bluff, Watson Bay",
+  "Color": "green"
+},
+{
+  "ID": 4,
+  "Coordinates": [-33.84281310468688, 151.28211256803036],
+  "City": "Sydney",
+  "State": "NSW",
+  "Country": "AUS",
+  "Name": "Watson Bay Hotel, Watson Bay",
+  "Color": "green"
+},
+{
+  "ID": 5,
+  "Coordinates": [-37.865183962758316, 144.9851959210609],
+  "City": "Melbourne",
+  "State": "VIC",
+  "Country": "AUS",
+  "Name": "Habitat HQ, St. Kilda",
+  "Color": "blue"
+},
+{
+  "ID": 6,
+  "Coordinates": [-38.6589234800146, 143.1066878527297],
+  "State": "VIC",
+  "Country": "AUS",
+  "Name": "Twelve Apostles",
+  "Color": "blue"
+},
+{
+  "ID": 7,
+  "Coordinates": [-37.865183962758316, 144.9851959210609],
+  "City": "Melbourne",
+  "State": "VIC",
+  "Country": "AUS",
+  "Name": "Habitat HQ, St. Kilda",
+  "Color": "blue"
+},
+{
+  "ID": 8,
+  "Coordinates": [-37.204696286473094, 142.39190297752862],
+  "State": "VIC",
+  "Country": "AUS",
+  "Name": "Grampians National Park",
+  "Color": "blue"
+},
+{
+  "ID": 9,
+  "Coordinates": [-33.73102392797698, 150.31449242782313],
+  "City": "Katoomba",
+  "State": "NSW",
+  "Country": "AUS",
+  "Name": "The Three Sisters",
+  "Color": "blue"
+},
+{
+  "ID": 10,
+  "Coordinates": [-30.198786362952013, 153.16497720052925],
+  "City": "Coffs Harbor",
+  "State": "NSW",
+  "Country": "AUS",
+  "Name": "Mooney Beach",
+  "Color": "blue"
+},
+{
+  "ID": 11,
+  "Coordinates": [-28.633634139512964, 153.60064907003746],
+  "City": "Byron Bay",
+  "State": "NSW",
+  "Country": "AUS",
+  "Name": "Belongil Beach",
+  "Color": "blue"
+},
+{
+  "ID": 12,
+  "Coordinates": [-25.439478445840198, 153.08036745696856],
+  "State": "NSW",
+  "Country": "AUS",
+  "Name": "Lake Mackenzie, Fraser Island",
+  "Color": "blue"
+},
+{
+  "ID": 13,
+  "Coordinates": [-43.51522874248613, 171.67064697446227],
+  "Country": "New Zealand",
+  "Name": "Rakia Gorge",
+  "Color": "orange"
+},
+{
+  "ID": 14,
+  "Coordinates": [-43.226977916390666, 171.72042875519816],
+  "Country": "New Zealand",
+  "Name": "Castle Hill",
+  "Color": "orange"
+},
+{
+  "ID": 15,
+  "Coordinates": [-42.93672915645775, 171.72849683251306],
+  "Country": "New Zealand",
+  "Name": "Arthur's Pass",
+  "Color": "orange"
+},
+{
+  "ID": 16,
+  "Coordinates": [-44.00565357857017, 170.47950438662286],
+  "Country": "New Zealand",
+  "Name": "Lake Tekapo",
+  "Color": "orange"
+},
+{
+  "ID": 17,
+  "Coordinates": [-44.68703337746742, 169.0513732596807],
+  "Country": "New Zealand",
+  "Name": "Roys Peak",
+  "Color": "orange"
+},
+{
+  "ID": 18,
+  "Coordinates": [-44.4742873314545, 168.66650845246735],
+  "Country": "New Zealand",
+  "Name": "Matukituki Valley",
+  "Color": "orange"
+},
+{
+  "ID": 19,
+  "Coordinates": [-43.7156223185764, 170.1038789299048],
+  "Country": "New Zealand",
+  "Name": "Lake Muller, Mount Cook",
+  "Color": "orange"
+},
+{
+  "ID": 20,
+  "Coordinates": [-43.7156223185764, 170.1038789299048],
+  "Country": "New Zealand",
+  "Name": "Lake Muller, Mount Cook",
+  "Color": "orange"
+},
+{
+  "ID": 21,
+  "Coordinates": [-45.38625977547906, 167.58573637779787],
+  "Country": "New Zealand",
+  "Name": "Kepler Great Walk",
+  "Color": "orange"
+}
+]
